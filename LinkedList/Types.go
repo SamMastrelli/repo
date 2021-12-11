@@ -4,7 +4,7 @@ import "fmt"
 
 type Lengthable interface {
   fmt.Stringer
-  Lenght() int
+  
 }
 
 type Node struct {
