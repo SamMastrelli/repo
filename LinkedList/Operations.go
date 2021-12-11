@@ -1,5 +1,7 @@
 package Linkedlist
-
+func NewList() List {
+  return List{first:nil}
+}
 func (l *List) Append(payload Lengthable) {
   if l.first==nil {
     l.first=&Node{payload:payload}
