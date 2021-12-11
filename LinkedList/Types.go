@@ -3,7 +3,7 @@ package Linkedlist
 import "fmt"
 
 type Lengthable interface {
-  fmt.Stringer()
+  fmt.Stringer
   Lenght() int
 }
 
